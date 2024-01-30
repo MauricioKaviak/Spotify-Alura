@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Imersão</title>
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/vars.css" />
+    <link rel="stylesheet" href="./src/styles/sydebar-footer.css" />
+    <link rel="stylesheet" href="./src/styles/main-content.css" />
+    <link rel="stylesheet" href="./src/styles/media-queries.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="header-container">
+        <div class="header-arrows">
+          <img
+            class="arrow-left"
+            src="./src/assests/small-left.png"
+            alt="Seta esquerda"
+          />
+          <img
+            class="arrow-right"
+            src="./src/assests/small-right.png"
+            alt="Seta direita"
+          />
+        </div>
+        <div class="header-search">
+          <img src="./src/assests/search.png" alt="" />
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="O que voce quer ouvir?"
+            maxlength="800"
+          />
+        </div>
+        <div class="header-btn">
+          <button class="subscribe">Inscreva-se</button>
+          <button class="login">Entrar</button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="sidebar">
+      <nav class="sidebar__navigation">
+        <div class="logo">
+          <a href="">
+            <img src="./src/assests/logo-spotify.png" alt="logo do spotify" />
+          </a>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="">
+                <span class="fa fa-home"></span>
+                <span>Início</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <span class="fa fa-search"></span>
+                <span>Buscar</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="library">
+        <div class="library__content">
+          <button class="library__button">
+            <span class="fa fa-book"></span>
+            <span>Sua biblioteca</span>
+          </button>
+          <span class="fa fa-plus"></span>
+        </div>
+        <section class="section-playlist">
+          <div class="section-playlist__content">
+            <span class="text title">Crie sua primeira playlist</span>
+            <span class="text subtitle">É fácil, vamos te ajudar</span>
+            <button class="section-playlist__button">
+              <span>Criar playlist</span>
+            </button>
+          </div>
+        </section>
+
+        <div class="cookies">
+          <a href="">Cookies</a>
+        </div>
+
+        <div class="languages">
+          <button class="languages__button">
+            <span class="fa fa-globe"></span>
+            <span>Português do Brasil</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <div class="playlist-content">
+        <h1>Boa Tarde</h1>
+        <h2>Navegar por todas as seções</h2>
+      </div>
+
+      <section id="cards">
+        <div class="card-1">
+          <img src="./src/Playlist/1.jpeg" alt="playlist natal" />
+        </div>
+        <div class="card-2">
+          <img src="./src/Playlist/2.png" alt="" />
+        </div>
+        <div class="card-3">
+          <img src="./src/Playlist/3.jpeg" alt="">
+        </div>
+        <div class="card-4">
+          <img src="./src/Playlist/4.jpeg" alt="">
+        </div>
+        <div class="card-5">
+          <img src="./src/Playlist/5.jpeg" alt="">
+        </div>
+        <div class="card-6">
+          <img src="./src/Playlist/6.jpeg" alt="">
+        </div>
+        <div class="card-7">
+          <img src="./src/Playlist/7.jpeg" alt="">
+        </div>
+        <div class="card-8">
+          <img src="./src/Playlist/8.jpeg" alt="">
+        </div>
+        <div class="card-9">
+          <img src="./src/Playlist/9.jpeg" alt="">
+        </div>
+        <div class="card-10">
+          <img src="./src/Playlist/10.jpeg" alt="">
+        </div>
+        <div class="card-11">
+          <img src="./src/Playlist/11.jpeg" alt="">
+        </div>
+        <div class="card-12">
+          <img src="./src/Playlist/12.jpeg" alt="">
+        </div>
+        <div class="card-13">
+          <img src="./src/Playlist/13.jpeg" alt="">
+        </div>
+        <div class="card-14">
+          <img src="./src/Playlist/14.jpeg" alt="">
+        </div>
+        <div class="card-15">
+          <img src="./src/Playlist/15.jpeg" alt="">
+        </div>
+      </section>
+    </main>
+
+    <!-- Aula 3 
+    <main>
+      <div class="main-container">
+        <nav class="header__navigation">
+          <div class="navigation">
+            <button class="arrow-left">
+              <img src="./src/assests/small-left.png" alt="Seta esquerda" />
+            </button>
+            <button class="arrow-right">
+              <img src="./src/assests/small-right.png" alt="Seta direita" />
+            </button>
+          </div>
+
+          <div class="header__search">
+            <img src="./src/assests/search.png" alt="" />
+            <input
+              id="search-input"
+              type="text"
+              maxlength="800"
+              placeholder="O que você quer ouvir?"
+            />
+          </div>
+
+          <div class="header__login">
+            <button class="subscribe">Inscreva-se</button>
+            <button class="login">Entrar</button>
+          </div>
+        </nav>
+      </div>
+    </main>
+    -->
+
+    <footer>
+      <div class="texts">
+        <h1>Testar o Premium de graça</h1>
+        <p>
+          Inscreva-se para curtir música ilimitada e podcasts só com alguns
+          anúncios. Não precisa de cartão de crédito.
+        </p>
+      </div>
+      <button>
+        <a href="">Increva-se grátis</a>
+      </button>
+    </footer>
+  </body>
+</html>
